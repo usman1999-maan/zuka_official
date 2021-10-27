@@ -1,0 +1,95 @@
+@media (max-width:320px){
+.col-sm-7 h1 {
+    font-size: 28px;
+    color: white;
+    margin-top: 57px;
+    padding-left: 93px;
+    animation: fadeleft 1s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col-sm-5 {
+    margin-top: 54px;
+    margin-bottom: 100px;
+    border: none;
+    height: 346px;
+    animation: faderight 1s;
+   
+}
+.col-sm-7 p {
+    color: white;
+    animation: fadeleft 1.2s;
+    padding-left: 1px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+.discount{
+    margin-left: 54px;
+}
+
+.six .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 1px;
+}
+.mar10{
+    margin-top: 30px;
+}
+.footlogo {
+    margin-top: 38px;
+    height: 60px;
+    padding-left: 128px;
+}
+.footericons {
+    padding-left: 90px;
+    letter-spacing: 6px;
+}
+.pc {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 18px;
+    color: #868686;
+}
+.form {
+    padding-right: 105px;
+    
+}
+#email{
+margin-top: 10px;
+margin-bottom: 32px;
+line-height: 0;
+border-bottom: none;
+margin-left: 38%;
+margin-right: 20%;
+}
+.email-text-box::placeholder{
+    color:slategray;
+    font-size: 13px;
+
+}
+#email i{
+    display: none;
+}
+.email-text-box{
+      
+    margin-top: 30px;
+    box-shadow: none;
+    background: none;
+   border-bottom: slategray 1px solid;
+    border-top: none;
+    line-height: 1px;
+
+    border-left: none;
+    border-right: none;
+
+  }
+
+
+}

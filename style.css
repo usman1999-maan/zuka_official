@@ -1,0 +1,221 @@
+body{
+
+    overflow-x: hidden;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    
+}
+.form{
+    cursor: pointer;
+}
+.icons{
+     color: white;
+     margin-top: 40px;
+padding: 30px;
+letter-spacing: 15px;
+
+}
+
+.logo img{
+    height: 70px;
+    padding-left: 165px;
+}
+
+.icons2{
+    letter-spacing: 5px;
+    padding-left: 230px;
+}
+.logo{
+    margin-top: 40px ;
+
+   
+}
+.search-text-box{
+  
+    margin-top: 60px;
+    box-shadow: none;
+    background: none;
+    
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.wrap{
+    cursor: pointer;
+    
+}
+::placeholder{
+    color: white;
+    font-size: 12px;
+}
+.fa-search{
+    color: white;
+}
+.fa-shopping-cart{
+    color: white;
+}
+.fa-bars{
+    color: white;
+}
+
+
+.navbar{
+      padding-left: 580px;
+}
+ul li{
+    display: inline-block;
+}
+li{
+    text-decoration: none;
+}
+.first li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 300px;
+    font-family:Arial, Helvetica, sans-serif
+}
+  .first li a:hover{
+     border-bottom: 2px solid white;
+     color: white;
+     text-decoration: none;
+ }
+ .head1{
+     margin-top: 90px;
+     color: white;
+     font-family: poppins;
+     letter-spacing: 8px;
+     padding-left: 550px;
+     font-weight: 400px;
+     animation: fadeIn 1s;
+   
+ }
+ @keyframes fadeIn {
+     from{
+         opacity: 0;
+         transform: translateY(-25px);
+     }
+     to{
+         opacity: 1;
+     }
+     
+ }
+ .title{
+     margin-top: 10px;
+     color: white;
+     padding-left: 420px;
+     font-weight: 400px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 60px;
+     animation: fadeIn 1s;
+ }
+ .btn1{
+     margin-top: 30px;
+     background:none ;
+     padding: 6px 45px 6px 45px;
+     color: white;
+     border:1px solid white;
+     margin-left:680px;
+     margin-bottom:300px ;
+     animation: fadeup 1s;
+
+ }
+ @keyframes fadeup {
+     from{
+         opacity: 0;
+         transform: translateY(30px);
+     }
+     to{
+         opacity: 1;
+     }
+ }
+ .fa-facebook-f:hover{
+     color: red;
+ } 
+ .fa-twitter:hover{
+    color: red;
+ }
+ .fa-pinterest:hover{
+    color: red;
+ }
+ .fa-youtube:hover{
+    color: red;
+ }
+ .fa-google-plus:hover
+ {
+    color: red;
+ }
+ .btn1:hover{
+     background-color: red;
+     border-color: red;
+ }
+ .section2{
+     margin-top: 70px;
+ }
+ .pic1{
+     /* background-image: url('../img/banner_14.jpg'); */
+     
+     background-repeat: no-repeat;
+     width: 807px;
+     height: 570px;
+     margin-left: 74px ;
+     animation: fadeleft 1s;
+ }
+ @keyframes fadeleft {
+     from{
+         opacity: 1;
+         transform: translateX(-50px);
+     }
+     to{
+         opacity: 1;
+        
+         
+     }
+     
+ }
+ .p1{
+     font-size: 24px;
+     color: rgb(154, 142, 90);
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 10px;
+     font-weight: 400px;
+     text-align: center;
+     margin-top: 125px;
+     padding-left: 84px;
+     animation: faderight 1s;
+  
+ }
+ @keyframes faderight {
+    from{
+        opacity: 1;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+        
+    }
+}
+
+.pb{
+  transition: transform 2s;
+}
+.pb:hover{
+    transform: scale(1.5);
+}
+
+@media (max-width:768px){
+    .banner{
+         background-size: cover;
+    }
+}
